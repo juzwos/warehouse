@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Warehouse": {
+      "commandName": "Project",
+      "commandLineArgs": "testFile.txt"
+    }
+  }
+}
