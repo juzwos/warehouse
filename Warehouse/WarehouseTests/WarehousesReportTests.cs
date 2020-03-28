@@ -35,7 +35,7 @@ M3: 1";
             var data = report.GetData();
 
             data.Should().NotBeNullOrWhiteSpace();
-            data.Should().Be(expected.Replace("\\r\\n","\\n"));
+            data.Should().Be(expected);
         }
 
         [Test]
